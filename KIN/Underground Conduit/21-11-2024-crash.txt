@@ -1,0 +1,307 @@
+[22:32:29.392] [1] [INFO] Loading MOD dll: UndergroundConduit.dll
+Fallback handler could not load library D:/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/MonoBleedingEdge/data-0000026A2986E030.dll
+Fallback handler could not load library D:/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/MonoBleedingEdge/data-0000026A5FFB60D0.dll
+[22:32:29.721] [1] [ERROR] null Exception while loading mod KIN.UndergroundConduit at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/3347169088. 
+HarmonyLib.HarmonyException: Patching exception in method virtual System.Void DetailsScreen::OnPrefabInit() ---> System.ArgumentException: No such field defined in class DetailsScreen, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Parameter name: sideScreenConfigContentBody
+  at HarmonyLib.MethodPatcher.EmitCallParameter (System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Reflection.Emit.LocalBuilder runOriginalVariable, System.Boolean allowFirsParamPassthrough, System.Reflection.Emit.LocalBuilder& tmpObjectVar, System.Collections.Generic.List`1[T] tmpBoxVars) [0x00316] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher+<>c__DisplayClass36_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00006] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher.AddPostfixes (System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Reflection.Emit.LocalBuilder runOriginalVariable, System.Boolean passthroughPatches) [0x00040] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher.CreateReplacement (System.Collections.Generic.Dictionary`2[System.Int32,HarmonyLib.CodeInstruction]& finalInstructions) [0x0033f] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00057] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x000bb] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0010f] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00093] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at KMod.UserMod2.OnLoad (HarmonyLib.Harmony harmony) [0x00007] in <96bf83e479e841629616de31cacb5606>:0 
+  at UndergroundConduit.Mod.OnLoad (HarmonyLib.Harmony harmony) [0x0014c] in <310c15d155af4c38bd8694067ab50fa3>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x00222] in <96bf83e479e841629616de31cacb5606>:0 
+Exception while loading mod KIN.UndergroundConduit at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/3347169088. 
+HarmonyLib.HarmonyException: Patching exception in method virtual System.Void DetailsScreen::OnPrefabInit() ---> System.ArgumentException: No such field defined in class DetailsScreen, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Parameter name: sideScreenConfigContentBody
+  at HarmonyLib.MethodPatcher.EmitCallParameter (System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Reflection.Emit.LocalBuilder runOriginalVariable, System.Boolean allowFirsParamPassthrough, System.Reflection.Emit.LocalBuilder& tmpObjectVar, System.Collections.Generic.List`1[T] tmpBoxVars) [0x00316] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher+<>c__DisplayClass36_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00006] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher.AddPostfixes (System.Collections.Generic.Dictionary`2[TKey,TValue] variables, System.Reflection.Emit.LocalBuilder runOriginalVariable, System.Boolean passthroughPatches) [0x00040] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.MethodPatcher.CreateReplacement (System.Collections.Generic.Dictionary`2[System.Int32,HarmonyLib.CodeInstruction]& finalInstructions) [0x0033f] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00057] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x000bb] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0010f] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00093] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <6dcb326e4f6442999f701f1e67d0b5a0>:0 
+  at KMod.UserMod2.OnLoad (HarmonyLib.Harmony harmony) [0x00007] in <96bf83e479e841629616de31cacb5606>:0 
+  at UndergroundConduit.Mod.OnLoad (HarmonyLib.Harmony harmony) [0x0014c] in <310c15d155af4c38bd8694067ab50fa3>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x00222] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:29.774] [1] [INFO] Failed to load mod Underground Conduit...disabling
+
+
+
+.....
+
+
+First anim file needs to be non-null. KIN.UndergroundConduit.GasReceiverComplete (UnityEngine.GameObject)
+[22:32:35.466] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.GasReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.GasReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.466] [1] [WARNING] Missing Anim: [0x18921EE9]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.466] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.GasSenderComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.GasSenderComplete (UnityEngine.GameObject)
+[22:32:35.466] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.GasSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.GasSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.467] [1] [WARNING] Missing Anim: [0xDA3B3E8C]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.467] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.HeatConductorComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.HeatConductorComplete (UnityEngine.GameObject)
+[22:32:35.467] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.HeatConductorConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.HeatConductorConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.467] [1] [WARNING] Missing Anim: [0xBF065B7C]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.467] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.HeatTerminalComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.HeatTerminalComplete (UnityEngine.GameObject)
+[22:32:35.468] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.HeatTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.HeatTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.468] [1] [WARNING] Missing Anim: [0xB6BE4A1E]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.468] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.LiquidReceiverComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.LiquidReceiverComplete (UnityEngine.GameObject)
+[22:32:35.468] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.LiquidReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.LiquidReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.469] [1] [WARNING] Missing Anim: [0xB2129AC4]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.469] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.LiquidSenderComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.LiquidSenderComplete (UnityEngine.GameObject)
+[22:32:35.469] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.LiquidSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.LiquidSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.469] [1] [WARNING] Missing Anim: [0xE6EFE28B]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.469] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.LogicTerminalComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.LogicTerminalComplete (UnityEngine.GameObject)
+[22:32:35.470] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.LogicTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.LogicTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.470] [1] [WARNING] Missing Anim: [0x7D14E183]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.470] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.PowerTerminalComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.PowerTerminalComplete (UnityEngine.GameObject)
+[22:32:35.470] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.PowerTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.PowerTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.470] [1] [WARNING] Missing Anim: [0xD82BB59F]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.471] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.RadboltReceiverComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.RadboltReceiverComplete (UnityEngine.GameObject)
+[22:32:35.471] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.RadboltReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.RadboltReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.471] [1] [WARNING] Missing Anim: [0xD82BB59F]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.471] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.RadboltSenderComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.RadboltSenderComplete (UnityEngine.GameObject)
+[22:32:35.471] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.RadboltSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.RadboltSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.472] [1] [WARNING] Missing Anim: [0xBF065B7C]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.472] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.SmartHeatTerminalComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.SmartHeatTerminalComplete (UnityEngine.GameObject)
+[22:32:35.472] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.SmartHeatTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.SmartHeatTerminalConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.472] [1] [WARNING] Missing Anim: [0x8D473F11]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.473] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.SolidReceiverComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.SolidReceiverComplete (UnityEngine.GameObject)
+[22:32:35.473] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.SolidReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.SolidReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.473] [1] [WARNING] Missing Anim: [0x9F999937]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.473] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.SolidSenderComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.SolidSenderComplete (UnityEngine.GameObject)
+[22:32:35.473] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.SolidSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.SolidSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.474] [1] [WARNING] Missing Anim: [0x8D473F11]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.474] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.StorageReceiverComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.StorageReceiverComplete (UnityEngine.GameObject)
+[22:32:35.474] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.StorageReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.StorageReceiverConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:35.475] [1] [WARNING] Missing Anim: [0x9F999937]. You may have to run Collect Anim on the Assets prefab
+[22:32:35.475] [1] [ERROR] First anim file needs to be non-null. KIN.UndergroundConduit.StorageSenderComplete (UnityEngine.GameObject)
+First anim file needs to be non-null. KIN.UndergroundConduit.StorageSenderComplete (UnityEngine.GameObject)
+[22:32:35.475] [1] [ERROR] null Exception in RegisterBuilding for type UndergroundConduit.Buildings.StorageSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+Exception in RegisterBuilding for type UndergroundConduit.Buildings.StorageSenderConfig from UndergroundConduit 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at KAnimControllerBase.set_AnimFiles (KAnimFile[] value) [0x00046] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.Add2DComponents (BuildingDef def, UnityEngine.GameObject go, System.String initialAnimState, System.Boolean no_collider, System.Int32 layer) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingLoader.CreateBuildingComplete (UnityEngine.GameObject go, BuildingDef def) [0x000fe] in <96bf83e479e841629616de31cacb5606>:0 
+  at BuildingConfigManager.RegisterBuilding (IBuildingConfig config) [0x000d8] in <96bf83e479e841629616de31cacb5606>:0 
+  at GeneratedBuildings.LoadGeneratedBuildings (System.Collections.Generic.List`1[T] types) [0x00076] in <96bf83e479e841629616de31cacb5606>:0 
+[22:32:36.364] [1] [INFO] Checking which steam branch we're on. Got: []
+[22:32:36.745] [1] [INFO] Steam: updating info for mod Underground Conduit
+[22:32:36.797] [1] [INFO] 	Underground Conduit has a mod.yaml with a staticID `KIN.UndergroundConduit`, using that from now on.
+[22:32:36.802] [1] [INFO] Underground Conduit: Successfully loaded from path 'root' with content 'DLL, Animation'.
+[22:32:36.803] [1] [INFO] Subscribe to mod Underground Conduit
+[22:32:36.804] [1] [INFO] 	Uninstalling mod Underground Conduit

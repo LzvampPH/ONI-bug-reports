@@ -1,0 +1,78 @@
+[22:50:04.909] [1] [INFO] Loading MOD dll: PLib.dll
+[22:50:04.913] [1] [INFO] Loading MOD dll: PortalNetwork.dll
+[22:50:04.926] [1] [ERROR] null Exception while loading mod PortalNetwork at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2968184715. 
+System.TypeLoadException: Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.RuntimeTypeHandle.type_is_assignable_from(System.Type,System.Type)
+  at System.RuntimeTypeHandle.CanCastTo (System.RuntimeType type, System.RuntimeType target) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.RuntimeType.IsAssignableFrom (System.Type c) [0x00020] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x0012b] in <96bf83e479e841629616de31cacb5606>:0 
+Exception while loading mod PortalNetwork at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2968184715. 
+System.TypeLoadException: Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.RuntimeTypeHandle.type_is_assignable_from(System.Type,System.Type)
+  at System.RuntimeTypeHandle.CanCastTo (System.RuntimeType type, System.RuntimeType target) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.RuntimeType.IsAssignableFrom (System.Type c) [0x00020] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x0012b] in <96bf83e479e841629616de31cacb5606>:0 
+[22:50:04.980] [1] [INFO] Failed to load mod Portal Network...disabling
+[22:50:05.068] [1] [INFO] Localization.Initialize!
+[22:50:05.076] [1] [INFO] Test Data Location / docs / C:\Users\\Documents\Klei\OxygenNotIncluded
+[22:50:05.076] [1] [INFO] Test Data Location / local / C:\Users\\AppData\Local\Klei\OxygenNotIncluded
+[22:50:05.081] [1] [INFO] Test Data Locations / C:\Users\\Documents\Klei\OxygenNotIncluded\test / write True / read True / removed True
+[22:50:05.081] [1] [INFO] Test Data Locations / C:\Users\\AppData\Local\Klei\OxygenNotIncluded\test / write True / read True / removed True
+[22:50:05.085] [1] [INFO] Logged into Steam with ID:76561198282791867, NAME:vampireux
+[22:50:05.085] [1] [INFO] [Account] Requesting auth ticket from Steam
+[22:50:05.208] [1] [INFO] Cannot initialize filesystem. [Ok]
+[22:50:05.208] [1] [INFO] Localization.Initialize!
+[22:50:06.035] [5] [INFO] [Account] Got login for user KU_LbGXpnpI
+[22:50:06.663] [1] [ERROR] GameAssets(Clone) ~~~!System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at AsyncLoadManager`1[AsyncLoaderType].Run () [0x00015] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Assets.OnPrefabInit () [0x0021f] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 
+System.TypeLoadException: Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)!~~~Error in GameAssets(Clone).Assets.OnPrefabInit at (0.00, 0.00, 0.00)
+~~~!System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at AsyncLoadManager`1[AsyncLoaderType].Run () [0x00015] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Assets.OnPrefabInit () [0x0021f] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 
+System.TypeLoadException: Could not load type of field 'Portal_Cube_2.MyWarpPortal2+<DelayedWarp>d__18:<worker>5__3' (6) due to: Could not resolve type with token 01000031 from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)!~~~Error in GameAssets(Clone).Assets.OnPrefabInit at (0.00, 0.00, 0.00)
+[22:50:06.780] [1] [ERROR] CustomGameSettings(Clone) ~~~!System.NullReferenceException: Object reference not set to an instance of an object
+  at Database.Personalities..ctor () [0x00128] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Initialize () [0x00027] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Get () [0x0001c] in <96bf83e479e841629616de31cacb5606>:0 
+  at CustomGameSettings.OnPrefabInit () [0x00118] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 !~~~Error in CustomGameSettings(Clone).CustomGameSettings.OnPrefabInit at (0.00, 0.00, 0.00)
+~~~!System.NullReferenceException: Object reference not set to an instance of an object
+  at Database.Personalities..ctor () [0x00128] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Initialize () [0x00027] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Get () [0x0001c] in <96bf83e479e841629616de31cacb5606>:0 
+  at CustomGameSettings.OnPrefabInit () [0x00118] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 !~~~Error in CustomGameSettings(Clone).CustomGameSettings.OnPrefabInit at (0.00, 0.00, 0.00)
+[22:50:06.797] [1] [INFO] Checking which steam branch we're on. Got: []
+[22:50:07.160] [1] [INFO] Steam: updating info for mod Portal Network
+[22:50:07.162] [1] [INFO] Steam: Preview image load failed
+[22:50:07.264] [1] [INFO] 	Portal Network has a mod.yaml with a staticID `PortalNetwork`, using that from now on.
+[22:50:07.268] [1] [INFO] Portal Network: Successfully loaded from path 'root' with content 'DLL, Animation'.
+[22:50:07.269] [1] [INFO] Subscribe to mod Portal Network
+[22:50:07.269] [1] [INFO] 	Uninstalling mod Portal Network
+[22:50:07.285] [1] [INFO] UnauthorizedAccessException during IO on  C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2968184715 , squelching. Stack trace was:
+ Access to the path 'PLib.dll' is denied. 
+   at Klei.FileUtil.DoIOFunc[T] (System.Func`1[TResult] io_op, System.Int32 retry_count) [0x00032] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Klei.FileUtil.DoIODialog[T] (System.Func`1[TResult] io_op, System.String io_subject, T fail_result, System.Int32 retry_count) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+[22:50:07.286] [1] [INFO] Error encountered during file access: IOError error: C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2968184715
+[22:50:07.287] [1] [INFO] Reporting error.
+
+[22:50:07.287] [1] [INFO] Access to the path 'PLib.dll' is denied.
+[22:50:07.287] [1] [INFO]   at Klei.FileUtil.DoIOFunc[T] (System.Func`1[TResult] io_op, System.Int32 retry_count) [0x00032] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Klei.FileUtil.DoIODialog[T] (System.Func`1[TResult] io_op, System.String io_subject, T fail_result, System.Int32 retry_count) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[22:50:07.331] [1] [INFO] Can't uninstall Portal Network: directory deletion failed
+[22:50:07.331] [1] [INFO] 	Failed. Will re-install on restart.
+[22:50:07.336] [1] [INFO] Unsubscribe from mod Underground Conduit
+[22:50:07.336] [1] [INFO] 	...found it: Underground Conduit
+[22:50:07.343] [1] [INFO] Submitting crash...
+Submitted crash!
+[22:50:08.340] [7] [INFO] World settings reload complete!
