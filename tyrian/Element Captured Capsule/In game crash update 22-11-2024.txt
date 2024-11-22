@@ -1,0 +1,58 @@
+at loading:
+
+
+[09:30:02.367] [1] [INFO] Adding HaulingPoint to category 0xFFD2E5B1
+[09:30:03.458] [1] [WARNING] Mod: Building 'VacuumBomb' was not added properly to PlanInfo, use ModUtil.AddBuildingToPlanScreen instead.
+[09:30:03.458] [1] [WARNING] Mod: Building 'GasCapsule' was not added properly to PlanInfo, use ModUtil.AddBuildingToPlanScreen instead.
+[09:30:03.458] [1] [WARNING] Mod: Building 'LiquidCapsule' was not added properly to PlanInfo, use ModUtil.AddBuildingToPlanScreen instead.
+[09:30:03.458] [1] [WARNING] Mod: Building 'SolidCapsule' was not added properly to PlanInfo, use ModUtil.AddBuildingToPlanScreen instead.
+[09:30:03.458] [1] [WARNING] Mod: Building 'PickupCapsule' was not added properly to PlanInfo, use ModUtil.AddBuildingToPlanScreen instead.
+
+
+
+logged crash :
+
+[11:12:49.503] [1] [ERROR] PickupCapsuleComplete Exception in: (PickupCapsule).Vacuumbomb.BombStateMachine.root.boom_2.boom_2 
+System.MissingFieldException: Field not found: Tag .GameTags.Minion Due to: Could not find field in class
+  at Vacuumbomb.BombStateMachine+<>c.<InitializeStates>b__1_3 (Vacuumbomb.BombStateMachine+Instance smi) [0x00024] in <0ffb34bdf663480091d0a5efaf6c87ad>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].ExecuteActions (StateMachine`4+State[StateMachineType,StateMachineInstanceType,MasterType,DefType] state, System.Collections.Generic.List`1[T] actions) [0x00048] in <96bf83e479e841629616de31cacb5606>:0 
+[11:12:49.517] [1] [INFO] Element Capture Capsule's assembly declared the method Vacuumbomb.BombStateMachine+<>c:<InitializeStates>b__1_3 in the stack trace, adding to referenced mods list
+Exception in: (PickupCapsule).Vacuumbomb.BombStateMachine.root.boom_2.boom_2 
+System.MissingFieldException: Field not found: Tag .GameTags.Minion Due to: Could not find field in class
+  at Vacuumbomb.BombStateMachine+<>c.<InitializeStates>b__1_3 (Vacuumbomb.BombStateMachine+Instance smi) [0x00024] in <0ffb34bdf663480091d0a5efaf6c87ad>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].ExecuteActions (StateMachine`4+State[StateMachineType,StateMachineInstanceType,MasterType,DefType] state, System.Collections.Generic.List`1[T] actions) [0x00048] in <96bf83e479e841629616de31cacb5606>:0 
+
+
+
+
+
+
+
+
+showed exception on crash :
+
+
+Exception in: (PickupCapsule).Vacuumbomb.BombStateMachine.root.boom_2.boom_2 
+System.MissingFieldException: Field not found: Tag .GameTags.Minion Due to: Could not find field in class
+  at Vacuumbomb.BombStateMachine+<>c.<InitializeStates>b__1_3 (Vacuumbomb.BombStateMachine+Instance smi) [0x00024] in <0ffb34bdf663480091d0a5efaf6c87ad>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].ExecuteActions (StateMachine`4+State[StateMachineType,StateMachineInstanceType,MasterType,DefType] state, System.Collections.Generic.List`1[T] actions) [0x00048] in <96bf83e479e841629616de31cacb5606>:0 
+
+  at UnityEngine.Debug.LogError (System.Object message, UnityEngine.Object context) [0x00000] in <82f243aab18c4f32918da2df41974365>:0 
+  at Debug.LogError (System.Object obj, UnityEngine.Object context) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at DebugUtil.LogErrorArgs (UnityEngine.Object context, System.Object[] objs) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at DebugUtil.LogException (UnityEngine.Object context, System.String errorMessage, System.Exception e) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].ExecuteActions (StateMachine`4+State[StateMachineType,StateMachineInstanceType,MasterType,DefType] state, System.Collections.Generic.List`1[T] actions) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].PushState (StateMachine+BaseState state) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at StateMachine`4+GenericInstance[StateMachineType,StateMachineInstanceType,MasterType,DefType].GoTo (StateMachine+BaseState base_state) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at GameStateMachine`4+EventTransitionData[StateMachineType,StateMachineInstanceType,MasterType,DefType].ExecuteTransition (StateMachineInstanceType smi) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at GameStateMachine`4+EventTransitionData[StateMachineType,StateMachineInstanceType,MasterType,DefType].OnCallback (StateMachineInstanceType smi) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at GameStateMachine`4+EventTransitionData+<>c__DisplayClass7_0[StateMachineType,StateMachineInstanceType,MasterType,DefType].<Register>b__0 (System.Object d) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at EventSystem.Trigger (UnityEngine.GameObject go, System.Int32 hash, System.Object data) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at EventExtensions.Trigger (UnityEngine.GameObject go, System.Int32 hash, System.Object data) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at KBatchedAnimController.TriggerStop () [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at KBatchedAnimController.UpdateFrame (System.Single t) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at KBatchedAnimController.UpdateAnim (System.Single dt) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at KBatchedAnimUpdater.UpdateRegisteredAnims (System.Collections.Generic.LinkedList`1[T] list, System.Single dt) [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at KBatchedAnimUpdater.LateUpdate () [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+  at Global.LateUpdate () [0x00000] in <96bf83e479e841629616de31cacb5606>:0 
+Build: U53-642695-SC
