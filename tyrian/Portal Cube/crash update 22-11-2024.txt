@@ -1,0 +1,75 @@
+[09:04:34.646] [1] [INFO] Loading mod content DLL [Portal Cube:2797484988] (provides DLL, Animation)
+[09:04:34.649] [1] [INFO] Loading MOD dll: PLib.dll
+[09:04:34.653] [1] [INFO] Loading MOD dll: Portal Cube.dll
+[09:04:34.671] [1] [ERROR] null Exception while loading mod PortalCube at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2797484988. 
+System.TypeLoadException: Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.RuntimeTypeHandle.type_is_assignable_from(System.Type,System.Type)
+  at System.RuntimeTypeHandle.CanCastTo (System.RuntimeType type, System.RuntimeType target) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.RuntimeType.IsAssignableFrom (System.Type c) [0x00020] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x0012b] in <96bf83e479e841629616de31cacb5606>:0 
+Exception while loading mod PortalCube at C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2797484988. 
+System.TypeLoadException: Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.RuntimeTypeHandle.type_is_assignable_from(System.Type,System.Type)
+  at System.RuntimeTypeHandle.CanCastTo (System.RuntimeType type, System.RuntimeType target) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.RuntimeType.IsAssignableFrom (System.Type c) [0x00020] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at KMod.DLLLoader.LoadDLLs (KMod.Mod ownerMod, System.String harmonyId, System.String path, System.Boolean isDev) [0x0012b] in <96bf83e479e841629616de31cacb5606>:0 
+[09:04:34.731] [1] [INFO] Failed to load mod Portal Cube...disabling
+
+...
+
+[09:04:36.887] [1] [ERROR] GameAssets(Clone) ~~~!System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at AsyncLoadManager`1[AsyncLoaderType].Run () [0x00015] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Assets.OnPrefabInit () [0x0021f] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 
+System.TypeLoadException: Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)!~~~Error in GameAssets(Clone).Assets.OnPrefabInit at (0.00, 0.00, 0.00)
+~~~!System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at AsyncLoadManager`1[AsyncLoaderType].Run () [0x00015] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Assets.OnPrefabInit () [0x0021f] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 
+System.TypeLoadException: Could not load type of field 'Portal_Cube.StoppingReact+PortalEnterWorkableReactable:worker' (5) due to: Could not resolve type with token 0100002c from typeref (expected class 'Worker' in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null') assembly:Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:Worker member:(null)!~~~Error in GameAssets(Clone).Assets.OnPrefabInit at (0.00, 0.00, 0.00)
+[09:04:37.025] [1] [ERROR] CustomGameSettings(Clone) ~~~!System.NullReferenceException: Object reference not set to an instance of an object
+  at Database.Personalities..ctor () [0x00128] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Initialize () [0x00027] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Get () [0x0001c] in <96bf83e479e841629616de31cacb5606>:0 
+  at CustomGameSettings.OnPrefabInit () [0x00118] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 !~~~Error in CustomGameSettings(Clone).CustomGameSettings.OnPrefabInit at (0.00, 0.00, 0.00)
+~~~!System.NullReferenceException: Object reference not set to an instance of an object
+  at Database.Personalities..ctor () [0x00128] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Initialize () [0x00027] in <96bf83e479e841629616de31cacb5606>:0 
+  at Db.Get () [0x0001c] in <96bf83e479e841629616de31cacb5606>:0 
+  at CustomGameSettings.OnPrefabInit () [0x00118] in <96bf83e479e841629616de31cacb5606>:0 
+  at KMonoBehaviour.InitializeComponent () [0x00068] in <199beda79a0545e18356f69e28ee38c2>:0 !~~~Error in CustomGameSettings(Clone).CustomGameSettings.OnPrefabInit at (0.00, 0.00, 0.00)
+  
+  
+  ...
+  
+  
+  [09:04:38.033] [1] [INFO] 	Portal Cube has a mod.yaml with a staticID `PortalCube`, using that from now on.
+[09:04:38.038] [1] [INFO] Portal Cube: Successfully loaded from path 'root' with content 'DLL, Animation'.
+[09:04:38.039] [1] [INFO] Subscribe to mod Portal Cube
+[09:04:38.040] [1] [INFO] 	Uninstalling mod Portal Cube
+[09:04:38.056] [1] [INFO] UnauthorizedAccessException during IO on  C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2797484988 , squelching. Stack trace was:
+ Access to the path 'PLib.dll' is denied. 
+   at Klei.FileUtil.DoIOFunc[T] (System.Func`1[TResult] io_op, System.Int32 retry_count) [0x00032] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Klei.FileUtil.DoIODialog[T] (System.Func`1[TResult] io_op, System.String io_subject, T fail_result, System.Int32 retry_count) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+[09:04:38.056] [1] [INFO] Error encountered during file access: IOError error: C:/Users//Documents/Klei/OxygenNotIncluded/mods/Steam/2797484988
+[09:04:38.058] [1] [INFO] Reporting error.
+
+[09:04:38.058] [1] [INFO] Access to the path 'PLib.dll' is denied.
+[09:04:38.058] [1] [INFO]   at Klei.FileUtil.DoIOFunc[T] (System.Func`1[TResult] io_op, System.Int32 retry_count) [0x00032] in <199beda79a0545e18356f69e28ee38c2>:0 
+  at Klei.FileUtil.DoIODialog[T] (System.Func`1[TResult] io_op, System.String io_subject, T fail_result, System.Int32 retry_count) [0x00000] in <199beda79a0545e18356f69e28ee38c2>:0 
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[09:04:38.124] [1] [INFO] Can't uninstall Portal Cube: directory deletion failed
+[09:04:38.124] [1] [INFO] 	Failed. Will re-install on restart.
+
+
+...
+
+
+
